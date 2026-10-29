@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!-- 顶部：标题 -->
+    <TextView
+        android:id="@+id/txt_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- 中间：图片（占满剩余空间） -->
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/img_btn_facilities"
+        android:scaleType="fitCenter"
+        android:contentDescription="Detail image" />
+
+    <!-- 底部：详情文本 -->
+    <TextView
+        android:id="@+id/txt_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Detail text goes here."
+        android:textSize="18sp" />
+
+</LinearLayout>
