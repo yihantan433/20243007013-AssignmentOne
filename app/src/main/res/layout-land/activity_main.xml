@@ -37,6 +37,7 @@
 
         <ImageButton
             android:id="@+id/btn_facilities"
+            android:onClick="onFacilitiesClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -47,6 +48,7 @@
 
         <ImageButton
             android:id="@+id/btn_events"
+            android:onClick="onEventsClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -57,6 +59,7 @@
 
         <ImageButton
             android:id="@+id/btn_clubs"
+            android:onClick="onClubsClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -67,6 +70,7 @@
 
         <ImageButton
             android:id="@+id/btn_support"
+            android:onClick="onSupportClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
