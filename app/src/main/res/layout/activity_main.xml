@@ -48,8 +48,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/img_btn_facilities"
+                android:background="@drawable/button_selector"
                 android:scaleType="fitCenter"
                 android:contentDescription="Facilities" />
+
 
             <ImageButton
                 android:id="@+id/btn_events"
@@ -57,8 +59,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/img_btn_events"
+                android:background="@drawable/button_selector"
                 android:scaleType="fitCenter"
                 android:contentDescription="Events" />
+
         </LinearLayout>
 
         <!-- 第二行：Clubs + Support -->
@@ -74,8 +78,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/img_btn_clubs"
+                android:background="@drawable/button_selector"
                 android:scaleType="fitCenter"
                 android:contentDescription="Clubs" />
+
 
             <ImageButton
                 android:id="@+id/btn_support"
@@ -83,8 +89,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/img_btn_support"
+                android:background="@drawable/button_selector"
                 android:scaleType="fitCenter"
                 android:contentDescription="Support" />
+
         </LinearLayout>
     </LinearLayout>
 

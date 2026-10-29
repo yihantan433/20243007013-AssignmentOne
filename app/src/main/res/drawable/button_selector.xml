@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态：浅绿色 -->
+    <item android:state_pressed="true">
+        <color android:color="@color/light_green" />
+    </item>
+    <!-- 默认状态：绿色 -->
+    <item>
+        <color android:color="@color/green" />
+    </item>
+</selector>
