@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 上半部分：横幅（与竖屏完全一致） -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_main_banner"
+            android:scaleType="centerCrop"
+            android:contentDescription="Campus banner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CampusLife"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+    <!-- 下半部分：四个按钮横向一字排开 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_facilities"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/img_btn_facilities"
+            android:background="@drawable/button_selector"
+            android:scaleType="fitCenter"
+            android:contentDescription="Facilities" />
+
+        <ImageButton
+            android:id="@+id/btn_events"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/img_btn_events"
+            android:background="@drawable/button_selector"
+            android:scaleType="fitCenter"
+            android:contentDescription="Events" />
+
+        <ImageButton
+            android:id="@+id/btn_clubs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/img_btn_clubs"
+            android:background="@drawable/button_selector"
+            android:scaleType="fitCenter"
+            android:contentDescription="Clubs" />
+
+        <ImageButton
+            android:id="@+id/btn_support"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/img_btn_support"
+            android:background="@drawable/button_selector"
+            android:scaleType="fitCenter"
+            android:contentDescription="Support" />
+    </LinearLayout>
+
+</LinearLayout>
